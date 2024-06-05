@@ -1,0 +1,67 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #00838F;
+    margin: auto;
+    margin-top: 30px;
+    width: auto;
+    font-size: 18px;
+}
+table thead td{
+    background: #672028;
+    color: white;
+    text-align: left;
+}
+
+table td {
+    border-collapse: collapse;
+    padding: 20px;
+    border: 2px white solid;
+}
+table tr:nth-of-type(2n){
+    background: #cecece;
+}
+table tr {
+    border-bottom: 1px dotted #00838F;
+}
+
+form table tr {
+    vertical-align: top;
+}
+input[type=submit] {
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #92BA56;
+    border: 1px solid #92BA56;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px;
+    min-width: 100px;
+}
+input[type=text] {
+    border: 1px solid #000;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 5px;
+    min-width: 100px;
+}
+.error { 
+    color: red;
+    font-size: 12px;
+}
+#buscador{
+    border-radius: 10%;
+    border: 1px solid #00838F;
+    margin: auto;
+    margin-top: 30px;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+}#buscador table tr{
+    background: none;
+    border: none;
+}
+#barra{
+    width: 100px;
+}
+
